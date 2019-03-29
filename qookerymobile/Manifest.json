@@ -1,23 +1,35 @@
 {
-	"info": {
-		"name": "Qookery Mobile",
-		"summary": "Qookery extension: Additional components for qx.ui.mobile package",
-		"homepage": "http://www.qookery.org/",
-		"license": "Apache License 2.0",
-		"authors": [
-			{ "name": "George Nikolaidis (geonik)", "email": "geonik@ergobyte.gr" },
-			{ "name": "Stelios Joseph Karras (jkarr)", "email": "jkarr@ergobyte.gr" }
-		],
-		"version": "0.6.1",
-		"qooxdoo-versions": [ "5.0.2", "6.0.0" ],
-		"qooxdoo-range" : "^6.0.0-alpha"
-	},
-	"provides": {
-		"namespace": "qookery.mobile",
-		"encoding": "utf-8",
-		"class": "source/class",
-		"resource": "source/resource",
-		"translation": "source/translation",
-		"type": "component"
-	}
+  "info": {
+    "name": "Qookery Mobile",
+    "summary": "Qookery extension: Additional components for qx.ui.mobile package",
+    "homepage": "http://www.qookery.org/",
+    "license": "Apache License 2.0",
+    "authors": [
+      {
+        "name": "George Nikolaidis (geonik)",
+        "email": "geonik@ergobyte.gr"
+      },
+      {
+        "name": "Stelios Joseph Karras (jkarr)",
+        "email": "jkarr@ergobyte.gr"
+      }
+    ],
+    "version": "0.6.2",
+    "qooxdoo-versions": [
+      "5.0.2",
+      "6.0.0",
+      "6.0.0-alpha"
+    ]
+  },
+  "provides": {
+    "namespace": "qookery.mobile",
+    "encoding": "utf-8",
+    "class": "source/class",
+    "resource": "source/resource",
+    "translation": "source/translation",
+    "type": "component"
+  },
+  "requires": {
+    "qooxdoo-sdk": "^6.0.0-alpha"
+  }
 }
